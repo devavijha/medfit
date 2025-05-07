@@ -39,7 +39,7 @@ interface Message {
 
 const INITIAL_MESSAGE: Message = {
   role: 'assistant',
-  content: 'Hello! I\'m your MedFit assistant. I can help you with medical-related questions about conditions, diseases, diagnoses, and treatments. I\'m powered by Gemini\'s free tier, so there may be occasional usage limits. How can I assist you today?'
+  content: 'Hello! I\'m your MedFit assistant. I can help you with medical-related questions about conditions, diseases, diagnoses, and treatments. How can I assist you today?'
 };
 
 export function ChatBot() {
